@@ -1,5 +1,7 @@
 <div class="container">
-    <input class="number" type="text" [(ngModel)]="display" disabled>
+    <div>
+        <input name="number" class="number" type="text" [(ngModel)]="display" disabled>
+    </div>
     <div class="button-container">
         <button class="button-item button-item--highlighted" (click)="clear()"> AC </button>
         <button class="button-item button-item--highlighted"  disabled> ( </button>
